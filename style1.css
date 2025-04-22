@@ -1,0 +1,109 @@
+body{
+    background-color:  #E9EBEE;;
+}
+header{
+    display: flex;
+    background-color: white;
+ 
+}
+.p1{
+    width: 3cm;
+    height: 1.7cm;
+    margin-left: 3cm;
+}
+.s1{
+    margin-left: 1cm;
+    width: 13cm;
+    height: 1cm;
+    background-color: lightcyan;
+    border-radius: 0.3cm;
+    margin-top: 0.3cm;
+    border-width: 0;
+}
+.pp1{
+    width: 0.9cm;
+    height: 0.9cm;
+    margin-top: 0.2cm;
+    background-color: white;
+    cursor: pointer;
+}
+.menu{
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 0.2cm;
+    border-width: 0;
+    display: flex;
+    margin-top: 0.15cm;
+    margin-left: 0.8cm;
+    transition: background-color 0.3s ease;
+}
+.lo1{
+    margin-top: 0.5cm;
+    margin-left: 0.15cm;
+}
+.menu:hover {
+    background-color: blue;
+}
+.imgcng{
+    width: 34cm;
+    height: 5cm;
+    margin-left: 0.5cm;
+    animation: changeImage  6s infinite;
+    margin-top: 0.5cm;
+}
+@keyframes changeImage{
+    0%,30%{
+        background: url(image5.jpg) 
+        center/cover;
+    }
+    65% {
+        background: url(image6.jpg)
+        center/cover;
+    }
+    100% {
+        background: url(image7.jpg)
+        center/cover;
+    }
+}
+icon{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 1cm;
+   background-color: white;
+   margin-left: 0.7cm;
+   margin-top: 0.5cm;
+}
+.p2{
+    width: 2.5cm;
+    height: 2cm;
+    margin-left: 1cm;
+    cursor: pointer;
+}
+.p3{
+    margin-left: 1.5cm;
+}
+.p4{
+    margin-left: 3cm;
+}
+.main{
+    display: flex;
+    cursor: pointer;
+}
+.m1{
+    margin-left: 2cm;
+    height: 5cm;
+}
+.pen{
+    height: 3cm;
+    width: 6cm;
+    margin-left: 1.5cm;
+    margin-top: 0.8cm;
+}
+.p5{
+    margin-top: 1.2cm;
+    margin-left: 2cm;
+}
+main{
+    background-color: white;
+}
